@@ -94,6 +94,7 @@
 !/openscreen/
 !/n8n/
 !/obsidian/
+!/unimol_tools/
 
 # Step 5: Inside each software dir, ignore everything (including dotfiles)
 /gimp/*
@@ -174,6 +175,8 @@
 /n8n/.*
 /obsidian/*
 /obsidian/.*
+/unimol_tools/*
+/unimol_tools/.*
 
 # Step 6: ...except agent-harness/
 !/gimp/agent-harness/
@@ -219,6 +222,8 @@
 !/exa/agent-harness/
 !/n8n/agent-harness/
 !/obsidian/agent-harness/
+!/unimol_tools/agent-harness/
+!/unimol_tools/examples/
 
 # Step 7: Ignore build artifacts within allowed dirs
 **/__pycache__/
